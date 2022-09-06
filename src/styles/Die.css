@@ -19,3 +19,10 @@
     background-color: #fff;
     color: #242424;
 }
+
+@media (max-height: 750px) {
+    .die {
+        width: 1.5em;
+        height: 1.2em;
+    }
+}

@@ -3,6 +3,7 @@ main {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    min-height: 500px;
 }
 
 .app {
@@ -66,6 +67,7 @@ button {
     border-radius: 10px;
     box-shadow: 0 3px 7px #00000080;
     cursor: pointer;
+    margin-top: 15px;
 }
 
 button:hover,
