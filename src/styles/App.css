@@ -23,7 +23,7 @@ main {
     border: 0.5px solid #6f6f7258;
     border-radius: 10px;
     padding: 20px;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
