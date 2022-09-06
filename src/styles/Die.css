@@ -1,0 +1,21 @@
+.die {
+    width: 2em;
+    height: 1.7em;
+    border-radius: 12px;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 10px #00000033;
+    cursor: pointer;
+}
+
+.is-held {
+    background-color: #c92275;
+    color: #fff;
+}
+
+.not-held {
+    background-color: #fff;
+    color: #242424;
+}

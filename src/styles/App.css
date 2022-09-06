@@ -1,0 +1,103 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.app {
+    background-color: #f5f5f5;
+    width: 800px;
+    height: 70%;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 7px 15px #00000068,
+    -3px 7px 15px #00000068;
+}
+
+.inner-app {
+    background-color: #bde3f0;
+    margin: 3px;
+    border: 0.5px solid #6f6f7258;
+    border-radius: 10px;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.dice-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.text {
+    text-align: center;
+    width: 75%;
+}
+
+.text h1,
+.text h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.text h1 {
+    font-size: 3.5rem;
+}
+
+.text h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 1.85rem;
+    color: #4a4e74;
+}
+
+button {
+    background-color: #5035ff;
+    border: none;
+    font-size: 30px;
+    color: #fff;
+    padding: 20px 70px;
+    border-radius: 10px;
+    box-shadow: 0 3px 7px #00000080;
+    cursor: pointer;
+}
+
+button:hover,
+button:focus {
+    background-color: #c92275;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    box-shadow: inset 3px 3px 7px -3px #00000080;
+}
+
+@media (max-width: 700px) {
+    .dice-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        gap: 15px;
+    }
+
+    .text h1 {
+        font-size: 2.8rem;
+    }
+
+    .text h2 {
+        font-size: 1.2rem;
+    }
+
+    .app {
+        height: 95%;
+    }
+}
