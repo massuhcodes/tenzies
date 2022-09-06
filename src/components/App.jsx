@@ -63,13 +63,13 @@ export default function App() {
 
     return (
         <main>
+            {tenzies && (
+                <Confetti
+                    width={window.innerWidth}
+                    height={window.innerHeight}
+                />
+            )}
             <div className="app">
-                {tenzies && (
-                    <Confetti
-                        width={window.innerWidth}
-                        height={window.innerHeight}
-                    />
-                )}
                 <div className="inner-app">
                     <div className="text">
                         <h1>Tenzies</h1>
