@@ -9,7 +9,6 @@ main {
 .app {
     background-color: #f5f5f5;
     width: 800px;
-    height: 70%;
     margin: 20px;
     border-radius: 10px;
     display: flex;
@@ -117,4 +116,9 @@ button:active {
     .inner-app {
         padding: 10px;
     }
+
+    .app {
+        max-height: 500px;
+    }
+
 }
