@@ -13,8 +13,7 @@ main {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    box-shadow: 3px 7px 15px #00000068,
-    -3px 7px 15px #00000068;
+    box-shadow: 3px 7px 15px #00000068, -3px 7px 15px #00000068;
 }
 
 .inner-app {
@@ -99,5 +98,21 @@ button:active {
 
     .app {
         height: 95%;
+    }
+}
+
+@media (max-height: 750px) {
+    h1,
+    h2 {
+        display: none;
+    }
+
+    button {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .inner-app {
+        padding: 10px;
     }
 }
