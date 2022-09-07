@@ -1,8 +1,7 @@
 .die {
-    width: 2em;
-    height: 1.7em;
+    width: 5em;
+    height: 5em;
     border-radius: 12px;
-    font-size: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,9 +19,13 @@
     color: #242424;
 }
 
+img {
+    height: 100%;
+}
+
 @media (max-height: 750px) {
     .die {
-        width: 1.5em;
-        height: 1.2em;
+        width: 4em;
+        height: 4em;
     }
 }

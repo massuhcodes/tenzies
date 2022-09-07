@@ -6,7 +6,7 @@ export default function Die(props) {
             className={props.held ? "die is-held" : "die not-held"}
             onClick={props.holdDice}
         >
-            <span>{props.value}</span>
+            <img src={props.image} />
         </div>
     );
 }
